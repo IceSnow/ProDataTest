@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D9B1A2A1BB250A600D200CE /* ROSWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B1A291BB250A600D200CE /* ROSWebView.swift */; settings = {ASSET_TAGS = (); }; };
 		2DF727A51BB23B1E0026C723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF727A41BB23B1E0026C723 /* AppDelegate.swift */; };
 		2DF727A71BB23B1E0026C723 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF727A61BB23B1E0026C723 /* ViewController.swift */; };
 		2DF727AA1BB23B1E0026C723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF727A81BB23B1E0026C723 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D9B1A291BB250A600D200CE /* ROSWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ROSWebView.swift; sourceTree = "<group>"; };
 		2DF727A11BB23B1E0026C723 /* ProDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF727A41BB23B1E0026C723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DF727A61BB23B1E0026C723 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				2DF727A41BB23B1E0026C723 /* AppDelegate.swift */,
 				2DF727A61BB23B1E0026C723 /* ViewController.swift */,
+				2D9B1A291BB250A600D200CE /* ROSWebView.swift */,
 				2DF727A81BB23B1E0026C723 /* Main.storyboard */,
 				2DF727AE1BB23B1E0026C723 /* Assets.xcassets */,
 				2DF727B01BB23B1E0026C723 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9B1A2A1BB250A600D200CE /* ROSWebView.swift in Sources */,
 				2DF727A71BB23B1E0026C723 /* ViewController.swift in Sources */,
 				2DF727AD1BB23B1E0026C723 /* ProDataTest.xcdatamodeld in Sources */,
 				2DF727A51BB23B1E0026C723 /* AppDelegate.swift in Sources */,
@@ -401,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProDataTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gzzhiyue.ProDataTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProDataTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gzzhiyue.ProDataTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +491,7 @@
 				2DF727CE1BB23B1E0026C723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DF727CF1BB23B1E0026C723 /* Build configuration list for PBXNativeTarget "ProDataTestTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +500,7 @@
 				2DF727D11BB23B1E0026C723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DF727D21BB23B1E0026C723 /* Build configuration list for PBXNativeTarget "ProDataTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +509,7 @@
 				2DF727D41BB23B1E0026C723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
