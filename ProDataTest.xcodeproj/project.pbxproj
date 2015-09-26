@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D8037361BB6438A007DD23B /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D80372C1BB6438A007DD23B /* FMDatabase.m */; settings = {ASSET_TAGS = (); }; };
+		2D8037371BB6438A007DD23B /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D80372E1BB6438A007DD23B /* FMDatabaseAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		2D8037381BB6438A007DD23B /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8037301BB6438A007DD23B /* FMDatabasePool.m */; settings = {ASSET_TAGS = (); }; };
+		2D8037391BB6438A007DD23B /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8037321BB6438A007DD23B /* FMDatabaseQueue.m */; settings = {ASSET_TAGS = (); }; };
+		2D80373A1BB6438A007DD23B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8037351BB6438A007DD23B /* FMResultSet.m */; settings = {ASSET_TAGS = (); }; };
+		2D80373C1BB644CE007DD23B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D80373B1BB644CE007DD23B /* libsqlite3.tbd */; };
 		2DB41FBA1BB522D700B873CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB41FB91BB522D700B873CE /* AppDelegate.swift */; };
 		2DB41FBC1BB522D700B873CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB41FBB1BB522D700B873CE /* ViewController.swift */; };
 		2DB41FBF1BB522D700B873CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB41FBD1BB522D700B873CE /* Main.storyboard */; };
 		2DB41FC11BB522D700B873CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB41FC01BB522D700B873CE /* Assets.xcassets */; };
 		2DB41FC41BB522D700B873CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB41FC21BB522D700B873CE /* LaunchScreen.storyboard */; };
+		2DC81C2B1BB524C4000FA6CD /* TopShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC81C2A1BB524C4000FA6CD /* TopShowView.swift */; settings = {ASSET_TAGS = (); }; };
+		2DC81C2E1BB524DB000FA6CD /* RosWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC81C2D1BB524DB000FA6CD /* RosWebView.swift */; settings = {ASSET_TAGS = (); }; };
+		2DC81C301BB524F4000FA6CD /* BottomMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC81C2F1BB524F4000FA6CD /* BottomMenuView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D80372B1BB6438A007DD23B /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		2D80372C1BB6438A007DD23B /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		2D80372D1BB6438A007DD23B /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		2D80372E1BB6438A007DD23B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		2D80372F1BB6438A007DD23B /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		2D8037301BB6438A007DD23B /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		2D8037311BB6438A007DD23B /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		2D8037321BB6438A007DD23B /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		2D8037331BB6438A007DD23B /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		2D8037341BB6438A007DD23B /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		2D8037351BB6438A007DD23B /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		2D80373B1BB644CE007DD23B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		2DB41FB61BB522D700B873CE /* ProDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB41FB91BB522D700B873CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DB41FBB1BB522D700B873CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,6 +44,9 @@
 		2DB41FC31BB522D700B873CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DB41FC51BB522D700B873CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DB41FCB1BB522E500B873CE /* ProDataTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProDataTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		2DC81C2A1BB524C4000FA6CD /* TopShowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopShowView.swift; sourceTree = "<group>"; };
+		2DC81C2D1BB524DB000FA6CD /* RosWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RosWebView.swift; sourceTree = "<group>"; };
+		2DC81C2F1BB524F4000FA6CD /* BottomMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,16 +54,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D80373C1BB644CE007DD23B /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D80372A1BB6438A007DD23B /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				2D80372B1BB6438A007DD23B /* FMDatabase.h */,
+				2D80372C1BB6438A007DD23B /* FMDatabase.m */,
+				2D80372D1BB6438A007DD23B /* FMDatabaseAdditions.h */,
+				2D80372E1BB6438A007DD23B /* FMDatabaseAdditions.m */,
+				2D80372F1BB6438A007DD23B /* FMDatabasePool.h */,
+				2D8037301BB6438A007DD23B /* FMDatabasePool.m */,
+				2D8037311BB6438A007DD23B /* FMDatabaseQueue.h */,
+				2D8037321BB6438A007DD23B /* FMDatabaseQueue.m */,
+				2D8037331BB6438A007DD23B /* FMDB.h */,
+				2D8037341BB6438A007DD23B /* FMResultSet.h */,
+				2D8037351BB6438A007DD23B /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
 		2DB41FAD1BB522D700B873CE = {
 			isa = PBXGroup;
 			children = (
 				2DB41FB81BB522D700B873CE /* ProDataTest */,
+				2DC81C331BB5263C000FA6CD /* Frameworks */,
 				2DB41FB71BB522D700B873CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,15 +99,59 @@
 		2DB41FB81BB522D700B873CE /* ProDataTest */ = {
 			isa = PBXGroup;
 			children = (
+				2DC81C291BB52479000FA6CD /* 功能设置页 */,
+				2DC81C311BB5260A000FA6CD /* 数据管理类 */,
+				2DC81C281BB5245D000FA6CD /* 显示页 */,
 				2DB41FB91BB522D700B873CE /* AppDelegate.swift */,
 				2DB41FBB1BB522D700B873CE /* ViewController.swift */,
 				2DB41FBD1BB522D700B873CE /* Main.storyboard */,
-				2DB41FC01BB522D700B873CE /* Assets.xcassets */,
 				2DB41FC21BB522D700B873CE /* LaunchScreen.storyboard */,
+				2DC81C321BB52613000FA6CD /* Library */,
+				2DB41FC01BB522D700B873CE /* Assets.xcassets */,
 				2DB41FC51BB522D700B873CE /* Info.plist */,
 				2DB41FCB1BB522E500B873CE /* ProDataTest-Bridging-Header.h */,
 			);
 			path = ProDataTest;
+			sourceTree = "<group>";
+		};
+		2DC81C281BB5245D000FA6CD /* 显示页 */ = {
+			isa = PBXGroup;
+			children = (
+				2DC81C2A1BB524C4000FA6CD /* TopShowView.swift */,
+				2DC81C2D1BB524DB000FA6CD /* RosWebView.swift */,
+				2DC81C2F1BB524F4000FA6CD /* BottomMenuView.swift */,
+			);
+			name = "显示页";
+			sourceTree = "<group>";
+		};
+		2DC81C291BB52479000FA6CD /* 功能设置页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "功能设置页";
+			sourceTree = "<group>";
+		};
+		2DC81C311BB5260A000FA6CD /* 数据管理类 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "数据管理类";
+			sourceTree = "<group>";
+		};
+		2DC81C321BB52613000FA6CD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				2D80372A1BB6438A007DD23B /* fmdb */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		2DC81C331BB5263C000FA6CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D80373B1BB644CE007DD23B /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +186,7 @@
 				TargetAttributes = {
 					2DB41FB51BB522D700B873CE = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 56LR9Q458G;
 					};
 				};
 			};
@@ -137,8 +226,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC81C2E1BB524DB000FA6CD /* RosWebView.swift in Sources */,
+				2DC81C2B1BB524C4000FA6CD /* TopShowView.swift in Sources */,
+				2DC81C301BB524F4000FA6CD /* BottomMenuView.swift in Sources */,
+				2D8037361BB6438A007DD23B /* FMDatabase.m in Sources */,
+				2D80373A1BB6438A007DD23B /* FMResultSet.m in Sources */,
 				2DB41FBC1BB522D700B873CE /* ViewController.swift in Sources */,
+				2D8037381BB6438A007DD23B /* FMDatabasePool.m in Sources */,
+				2D8037371BB6438A007DD23B /* FMDatabaseAdditions.m in Sources */,
 				2DB41FBA1BB522D700B873CE /* AppDelegate.swift in Sources */,
+				2D8037391BB6438A007DD23B /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,10 +347,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ProDataTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gzzhiyue.ProDataTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a6e33f95-6c9e-4e85-857b-b006a79606bf";
 				SWIFT_OBJC_BRIDGING_HEADER = "ProDataTest/ProDataTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -264,10 +364,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ProDataTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gzzhiyue.ProDataTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a6e33f95-6c9e-4e85-857b-b006a79606bf";
 				SWIFT_OBJC_BRIDGING_HEADER = "ProDataTest/ProDataTest-Bridging-Header.h";
 			};
 			name = Release;
@@ -291,6 +394,7 @@
 				2DB41FCA1BB522D700B873CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
